@@ -2,11 +2,23 @@
   "name": "vndb-db-clone",
   "version": "1.0.0",
   "description": "shallow clone db of vndb.org api",
-  "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "build": "babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "vndb": "github:makemek/vndb"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "nodemon": "^1.18.7"
+  }
 }
