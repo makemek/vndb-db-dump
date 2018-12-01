@@ -1,0 +1,12 @@
+{
+  "name": "vndb-db-clone",
+  "version": "1.0.0",
+  "description": "shallow clone db of vndb.org api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
