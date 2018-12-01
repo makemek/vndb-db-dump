@@ -1,4 +1,5 @@
 dist
+*.dump.json
 
 # Logs
 logs
