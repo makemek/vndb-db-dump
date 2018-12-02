@@ -16,9 +16,8 @@ async function init() {
     } = await w1.executeWithRetry(character.byId, id)
     const char = items[0]
     characters.push(char)
+    await fs.outputJson('file.dump.json', characters)
   }
-  console.log('writing file')
-  await fs.outputJson('file.dump.json', characters)
 }
 
 init()
