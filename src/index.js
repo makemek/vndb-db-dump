@@ -25,7 +25,7 @@ async function init() {
     )
     characters = characters.concat(items)
     console.log('write to file')
-    await fs.outputJson('file.dump.json', characters)
+    await fs.outputJson('dump/character.dump.json', characters)
   }
 }
 
