@@ -1,6 +1,6 @@
 {
   "name": "vndb-db-clone",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "shallow clone db of vndb.org api",
   "scripts": {
     "start": "nodemon --exec babel-node src/index.js",
